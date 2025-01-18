@@ -10,6 +10,7 @@ body {
     color: white;
 }
 
+/*Navbar Styling*/
 #navbar {
     list-style-type: none;
     margin: 0;
@@ -61,7 +62,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* Allow items to wrap onto new lines */
-    justify-content: space-around; /* Space items evenly */
+    justify-content: space-around;
     background: #0e2b5d;
     border: 10px gray ridge;
     border-radius: 100px;
@@ -69,11 +70,11 @@ nav {
 }
 
 .house {
-    position: relative; /* Ensures text is positioned relative to the image */
+    position: relative;
     width: 30%; /* Set a base width */
     max-width: 300px; /* Set a maximum width for larger screens */
     display: inline-block;
-    margin-bottom: 20px; /* Add some space between rows */
+    margin-bottom: 20px;
 }
 
 #flex_container img {
@@ -95,11 +96,11 @@ nav {
     text-align: center;
     color: white;
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* To make text stand out */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     pointer-events: none; /* Prevent interaction with the text */
     max-width: 90%; /* Ensure text does not exceed the image width */
     font-size: 1rem; /* Base font size */
-    font-size: calc(1.2rem + 1vw); /* Responsive font size */
+    font-size: calc(1rem + 1vw); /* Responsive font size */
 }
 
 #flex_container1 {
@@ -133,7 +134,6 @@ footer {
     text-align: center;
 }
 
-/* Optional Media Query for Smaller Screens */
 @media (max-width: 768px) {
     .house {
         width: 45%; /* Adjust width for smaller screens */
