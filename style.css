@@ -16,6 +16,7 @@ body {
     margin: 0;
     padding: 0;
     background: #12274d;
+    opacity: 95%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -99,8 +100,8 @@ nav {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     pointer-events: none; /* Prevent interaction with the text */
     max-width: 90%; /* Ensure text does not exceed the image width */
-    font-size: 1rem; /* Base font size */
-    font-size: calc(1rem + 1vw); /* Responsive font size */
+    font-size: 0.7rem; /* Base font size */
+    font-size: calc(0.7rem + 1vw); /* Responsive font size */
 }
 
 #flex_container1 {
